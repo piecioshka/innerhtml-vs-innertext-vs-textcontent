@@ -2,6 +2,10 @@
 
 Comparison: `innerHTML` vs `innerText` vs `textContent`
 
+## Demo 🚀
+
+<https://piecioshka.github.io/innerhtml-vs-innertext-vs-textcontent/>
+
 ## Test results
 
 ```js
