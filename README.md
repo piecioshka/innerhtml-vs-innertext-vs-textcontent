@@ -9,11 +9,21 @@ Comparison: `innerHTML` vs `innerText` vs `textContent`
 ## Test results
 
 ```js
-// Code below is execute 1000 times.
-// In inline comment you can see duration of execution each line.
-$el1.innerHTML += 1;    // 20 ms
-$el2.innerText += 2;    // 318 ms
-$el3.textContent += 3;  // 5 ms
+// Code below is execute 3000 times.
+$element.innerHTML += 1;
+$element.innerText += 2;
+$element.textContent += 3;
+```
+
+Results:
+
+```
+[Element rendered in DOM: innerHTML] 41 ms
+[Element rendered in DOM: innerText] 957 ms
+[Element rendered in DOM: textContent] 10 ms
+[Element does not rendered in DOM: innerHTML] 31 ms
+[Element does not rendered in DOM: innerText] 9 ms
+[Element does not rendered in DOM: textContent] 7 ms
 ```
 
 ## Conclusions
