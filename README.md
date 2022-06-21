@@ -19,12 +19,12 @@ $element.textContent += 3;
 Results:
 
 ```
-[Element rendered in DOM: innerHTML] 41 ms
-[Element rendered in DOM: innerText] 957 ms
-[Element rendered in DOM: textContent] 10 ms
-[Element does not rendered in DOM: innerHTML] 31 ms
-[Element does not rendered in DOM: innerText] 9 ms
-[Element does not rendered in DOM: textContent] 7 ms
+[Element exists in DOM: innerHTML] 41 ms
+[Element exists in DOM: innerText] 957 ms
+[Element exists in DOM: textContent] 10 ms
+[Element does not exists in DOM: innerHTML] 31 ms
+[Element does not exists in DOM: innerText] 9 ms
+[Element does not exists in DOM: textContent] 7 ms
 ```
 
 ## License

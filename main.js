@@ -28,13 +28,13 @@ function perform($element, operation, label) {
 }
 
 function main() {
-    perform($el1, doInnerHTML, "Element rendered in DOM: innerHTML");
-    perform($el2, doInnerText, "Element rendered in DOM: innerText");
-    perform($el3, doTextContent, "Element rendered in DOM: textContent");
+    perform($el1, doInnerHTML, "Element exists in DOM: innerHTML");
+    perform($el2, doInnerText, "Element exists in DOM: innerText");
+    perform($el3, doTextContent, "Element exists in DOM: textContent");
 
-    perform($el4, doInnerHTML, "Element does not rendered in DOM: innerHTML");
-    perform($el5, doInnerText, "Element does not rendered in DOM: innerText");
-    perform($el6, doTextContent, "Element does not rendered in DOM: textContent");
+    perform($el4, doInnerHTML, "Element does not exists in DOM: innerHTML");
+    perform($el5, doInnerText, "Element does not exists in DOM: innerText");
+    perform($el6, doTextContent, "Element does not exists in DOM: textContent");
 }
 
 main();
