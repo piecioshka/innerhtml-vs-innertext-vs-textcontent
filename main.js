@@ -27,7 +27,7 @@ function perform($element, operation, label) {
     console.log(`[${label}] ${endTime - startTime} ms`);
 }
 
-function setup() {
+function main() {
     perform($el1, doInnerHTML, "Element rendered in DOM: innerHTML");
     perform($el2, doInnerText, "Element rendered in DOM: innerText");
     perform($el3, doTextContent, "Element rendered in DOM: textContent");
@@ -37,4 +37,4 @@ function setup() {
     perform($el6, doTextContent, "Element does not rendered in DOM: textContent");
 }
 
-setup();
+main();
