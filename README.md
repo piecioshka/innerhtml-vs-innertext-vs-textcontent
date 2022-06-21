@@ -8,8 +8,9 @@ Comparison: `innerHTML` vs `innerText` vs `textContent`
 
 ## Test results
 
+Code below is execute 3_000 times.
+
 ```js
-// Code below is execute 3000 times.
 $element.innerHTML += 1;
 $element.innerText += 2;
 $element.textContent += 3;
@@ -25,12 +26,6 @@ Results:
 [Element does not rendered in DOM: innerText] 9 ms
 [Element does not rendered in DOM: textContent] 7 ms
 ```
-
-## Conclusions
-
-:no_entry: You should be warn when use use `innerText`.
-
-:zap: **Performance improvement** is when element is hidden (with `display: none`).
 
 ## License
 
