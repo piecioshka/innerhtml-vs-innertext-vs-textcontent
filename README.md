@@ -2,7 +2,7 @@
 
 Comparison: `innerHTML` vs `innerText` vs `textContent`
 
-## Demo 🎉
+## Preview 🎉
 
 <https://piecioshka.github.io/innerhtml-vs-innertext-vs-textcontent/>
 
